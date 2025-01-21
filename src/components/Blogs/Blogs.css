@@ -1,0 +1,43 @@
+.blogs h2 {
+  font-size: 38px;
+}
+.blogs .container {
+  padding-top: 56px;
+  padding-bottom: 70px;
+}
+.blogs .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 32px;
+}
+.blogs .blog img {
+  width: 100%;
+  margin-bottom: 32px;
+}
+.blogs .blog .author {
+  font-size: 14px;
+  font-weight: bold;
+  color: #6941c6;
+}
+.blogs .blog h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 0px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.blogs .blog p {
+  color: #667085;
+}
+.blogs .blog .icon {
+  cursor: pointer;
+}
+@media (max-width: 500px) {
+  .blogs h2 {
+    text-align: center;
+  }
+  .blogs .container {
+    grid-template-columns: none;
+  }
+}

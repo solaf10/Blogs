@@ -1,0 +1,31 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #7f56d9;
+}
+body {
+  font-family: "Inter", serif;
+  color: #1a1a1a;
+}
+nav,
+section,
+footer {
+  padding: 0px 70px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+@media (max-width: 768px) {
+  nav,
+  section,
+  footer {
+    padding: 0px 30px;
+  }
+}

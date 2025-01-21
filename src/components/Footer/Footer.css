@@ -1,0 +1,16 @@
+footer {
+  padding-top: 23px;
+  padding-bottom: 23px;
+  height: 70px;
+  border-top: 1px solid #090d1f;
+}
+footer p {
+  font-size: 20px;
+  color: #1a1a1a;
+}
+@media (max-width: 556px) {
+  footer {
+    height: auto;
+    text-align: center;
+  }
+}

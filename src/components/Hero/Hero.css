@@ -1,0 +1,52 @@
+.hero {
+  height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.hero p {
+  width: 65%;
+  margin: 24px 0px 40px;
+  color: #c0c5d0;
+  font-size: 20px;
+  line-height: 30px;
+}
+.hero form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.hero form input[type="email"] {
+  width: 360px;
+  height: 48px;
+  border: 1px solid var(--primary-color);
+  padding: 12px 14px;
+  border-radius: 8px;
+  caret-color: var(--primary-color);
+}
+.hero form input[type="email"]:focus {
+  outline: none;
+}
+.hero input[type="submit"] {
+  width: 120px;
+  height: 48px;
+  border-radius: 8px;
+  color: white;
+  border: 1px solid var(--primary-color);
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+@media (max-width: 500px) {
+  .hero form input[type="email"],
+  .hero p {
+    width: 100%;
+  }
+}
