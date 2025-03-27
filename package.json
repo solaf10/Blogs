@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://solaf10.github.io/",
+  "homepage": "https://solaf10.github.io/Blogs",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
